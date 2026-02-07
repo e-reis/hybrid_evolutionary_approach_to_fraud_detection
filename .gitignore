@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.pyc
+.env
+.venv/
+env/
+
+# LaTeX
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+*.bbl
+*.blg
+
+# Ignorar pastas de ambiente virtual e bibliotecas pesadas
+Lib/
+site-packages/
+.venv/
+env/
+venv/
+__pycache__/
+
+# Ignorar datasets grandes
+Datasets/
+*.csv
+
+# Ignorar arquivos temporários e compilados
+*.pyc
+*.dll
+*.so
+*.ipynb_checkpoints/
+
+Include/
+share/
+Scripts/
